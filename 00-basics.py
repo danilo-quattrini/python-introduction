@@ -1,4 +1,4 @@
-'''
+"""
 This is a variable that can save every type of value
 form: int, char, float, bool, string, lists and
 dict
@@ -6,7 +6,7 @@ dict
 !! NOTE: we don't need to declare them before
 the type of variable, Python understands which variable you need
 in that exact moment
-'''
+"""
 
 a = 10
 b = 10.645
@@ -31,7 +31,7 @@ my_list = [1,3,5,6,2,6,8]
 print(my_list[0])
 print(my_list[-1])
 print(len(my_list))
-
+print(my_list[1:])
 '''
 dict: they are dictionaries where you can correlate the key to its value
 
