@@ -1,0 +1,12 @@
+{
+    "Person": {
+        "name": "Danilo",
+        "surname": "Quattrini",
+        "age": 22,
+        "hobbies": [
+            "Basketball",
+            "Develop",
+            "Travel"
+        ]
+    }
+}
