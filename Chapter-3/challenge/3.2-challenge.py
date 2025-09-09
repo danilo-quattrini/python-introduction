@@ -42,7 +42,7 @@ def read_file(input_file):
             new_data = new_data.split(",") # with the split function we divide the string for each comma ","
 
             # we assign to each part of the list their specific value
-            dict_value = {"name": new_data[0],"age": new_data[1], "city": new_data[2]} # then we save each element inside the dict
+            dict_value = {"name": new_data[0],"age": int(new_data[1]), "city": new_data[2]} # then we save each element inside the dict
             people_list.append(dict_value) # we add into the list of people the dict we updated before
     return people_list
 
@@ -57,7 +57,7 @@ def average_age(user_list):
     for user in user_list:
         for k, v in user.items():
             if k == "age":
-                age_average += float(v)
+                age_average += v
     return age_average / len(user_list)
 
 def define_unique_cities(user_list):
