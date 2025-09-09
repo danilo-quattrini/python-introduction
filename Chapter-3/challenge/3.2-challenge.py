@@ -55,9 +55,7 @@ def average_age(user_list):
     """
     age_average = 0.0
     for user in user_list:
-        for k, v in user.items():
-            if k == "age":
-                age_average += v
+            age_average += user["age"]
     return age_average / len(user_list)
 
 def define_unique_cities(user_list):
@@ -69,9 +67,7 @@ def define_unique_cities(user_list):
     """
     unique_city_list = []
     for user in user_list:
-        for k, v in user.items():
-            if k == "city":
-                unique_city_list.append(v)
+        unique_city_list.append(user["city"])
 
     set_of_city = set(unique_city_list)
     unique_city_list.clear()
