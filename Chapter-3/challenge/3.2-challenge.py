@@ -79,8 +79,6 @@ def define_unique_cities(user_list):
 
 file = "data.txt" # file where we read the raw data
 result_file = "summary.json"
-user_summary = [] # lists of user_infos
-user_info = {} # dict where we save the info of the user
 
 # Extract the data from the txt file we created
 user_list = read_file(file)
@@ -93,5 +91,7 @@ list_of_unique_cities = define_unique_cities(user_list)
 
 user_info.update({"avg_age": avg_of_age, "unique_cities": list_of_unique_cities})
 user_summary.append(user_info)
+# dict where we save the info of the user
+user_info = {"average_age": avg_of_age, "unique_cities": list_of_unique_cities}
 
-write_into_json(result_file, user_summary)
+write_into_json(result_file, user_info)
