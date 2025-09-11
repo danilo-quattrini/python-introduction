@@ -53,9 +53,7 @@ def average_age(user_list):
     :param user_list:
     :return: age_average
     """
-    age_average = 0.0
-    for user in user_list:
-            age_average += user["age"]
+    age_average: int  = sum([user["age"] for user in user_list])
     return age_average / len(user_list)
 
 def define_unique_cities(user_list):
