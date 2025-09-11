@@ -46,7 +46,7 @@ def read_file(input_file):
             people_list.append(dict_value) # we add into the list of people the dict we updated before
     return people_list
 
-def average_age(user_list):
+def average_age(user_list) -> float:
     """
     Function where we give a list of users, and we return the avg of all of their ages,
     from each user inside the list of dicts.
