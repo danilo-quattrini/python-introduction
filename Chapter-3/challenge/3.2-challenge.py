@@ -87,8 +87,6 @@ avg_of_age = average_age(user_list)
 # Calculate the uniques cities for all the user inside the list
 list_of_unique_cities = define_unique_cities(user_list)
 
-user_info.update({"avg_age": avg_of_age, "unique_cities": list_of_unique_cities})
-user_summary.append(user_info)
 # dict where we save the info of the user
 user_info = {"average_age": avg_of_age, "unique_cities": list_of_unique_cities}
 
