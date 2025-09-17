@@ -217,3 +217,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ide files to ignore
+.idea/python-introduction.iml
+.ipynb_checkpoints
+.venv
