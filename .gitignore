@@ -220,5 +220,5 @@ __marimo__/
 
 # ide files to ignore
 .idea/python-introduction.iml
-.ipynb_checkpoints/
-.venv/
+.ipynb_checkpoints/*.xml
+.venv/*.iml
