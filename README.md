@@ -12,7 +12,7 @@ This repository is dedicated to storing all my Python scripts. It serves as a pe
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/python-introduction.git
+   git clone https://github.com/danilo-quattrini/python-introduction.git
    ```
 2. Navigate to the desired script and run it using Python:
    ```
@@ -23,6 +23,9 @@ This repository is dedicated to storing all my Python scripts. It serves as a pe
 
 - Python 3.x
 
+## References
+- [30 days of python](https://github.com/Asabeneh/30-Days-Of-Python)
+- _The Quick Python Book_, from Naomi Ceder
 ## License
 
 This project is licensed under the MIT License.
